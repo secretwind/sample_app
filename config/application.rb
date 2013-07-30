@@ -1,3 +1,4 @@
+config.autoload_paths += Dir["#{config.root}/lib/**/"]
 require File.expand_path('../boot', __FILE__)
 
 # Pick the frameworks you want:
